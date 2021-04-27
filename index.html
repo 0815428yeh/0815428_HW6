@@ -1,0 +1,75 @@
+<!<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>HW6_0815428</title>
+
+
+       <style>
+         body {
+            height:100%;
+         }
+         .omg {
+            z-index: 10;
+            position: absolute;
+         }
+
+          #bg-block {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 0;
+            min-width: 100%;
+            min-height: 100%;
+            background: url('img/background.jpg') no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -webkit-filter: blur(6px);
+         }
+      </style>
+     
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+      <script src="js/skrollr.min.js"></script>
+</head>
+
+
+
+<body>
+ <div id="bg-block">
+      </div>
+     
+ <div class="omg" style="top:150px;width:100%;text-align:center">
+         <img src="img/logo.png" style="width: 500px; opacity: 1; -webkit-filter: blur(0px);" data-0="opacity: 1;-webkit-filter: blur(0px);" data-100="opacity: 0.5;-webkit-filter: blur(5px);" class="skrollable skrollable-between">
+      </div>
+     
+      <div class="omg skrollable " style="top: 400px; opacity: 1 -webkit-filter: blur(0px);" data-0="opacity: 1;-webkit-filter: blur(0px);" data-300="opacity: 1;right: 300px;-webkit-filter: blur(0px);" data-600="opacity: 0;right: 400px;-webkit-filter: blur(5px);">
+         <img src="img/hyojeong.png" style="width:400px;">
+      </div>
+         <img src="img/hyojeong_name.png" style="width:400px;">
+      <div class="omg skrollable " style="top: 700px; opacity: 1;; -webkit-filter: blur(0px);" data-300="opacity: 1;-webkit-filter: blur(0px);" data-600="opacity: 1;left: 300px;-webkit-filter: blur(0px);" data-900="opacity: 0;left: 400px;-webkit-filter: blur(5px);">
+         <img src="img/mimi.png" style="width:400px;">
+      </div>
+      <div class="omg skrollable skrollable-before" style="top: 1000px; opacity: 1; -webkit-filter: blur(0px);" data-600="opacity: 1;-webkit-filter: blur(0px);" data-900="opacity: 1;-webkit-filter: blur(0px);" data-1200="opacity: 0;right: 400px;-webkit-filter: blur(5px);">
+         <img src="img/yooa.png" style="width:400px;">
+      </div>
+      <div class="omg skrollable skrollable-before" style="top: 1300px; opacity: 1; -webkit-filter: blur(0px);" data-900="opacity: 1;-webkit-filter: blur(0px);" data-1200="opacity: 1;left: 300px;-webkit-filter: blur(0px);" data-1500="opacity: 0;left: 400px;-webkit-filter: blur(5px);">
+         <img src="img/seunghee.png" style="width:400px;">
+      </div>
+      <div class="omg skrollable skrollable-before" style="top: 1600px; opacity: 1; -webkit-filter: blur(0px);" data-1200="opacity: 1;-webkit-filter: blur(0px);" data-1500="opacity: 1;right: 300px;-webkit-filter: blur(0px);" data-1800="opacity: 0;right: 400px;-webkit-filter: blur(5px);">
+         <img src="img/jiho.png" style="width:400px;">
+      </div>
+      <div class="omg skrollable skrollable-before" style="top: 1900px; opacity: 1;  -webkit-filter: blur(0px);" data-1500="opacity: 1;-webkit-filter: blur(0px);" data-1800="opacity: 1;left: 300px;-webkit-filter: blur(0px);" data-2100="opacity: 0;left: 400px;-webkit-filter: blur(5px);">
+         <img src="img/binnie.png" style="width:400px;">
+      </div>
+      <div class="omg skrollable skrollable-before" style="top: 2200px; opacity: 1; -webkit-filter: blur(0px);" data-1800="opacity: 1;-webkit-filter: blur(0px);" data-2100="opacity: 1;right: 300px;-webkit-filter: blur(0px);" data-2400="opacity: 0;right: 400px;-webkit-filter: blur(5px);">
+         <img src="img/arin.png" style="width:400px;">
+      </div>
+     
+      <div class="omg" style="top:3000px;width:100%;text-align:center">
+         <img src="img/omg.png" style="width: 1500px; opacity: 0; -webkit-filter: blur(5px);" data-2700="opacity: 0;-webkit-filter: blur(5px);" data-2900="opacity: 1;-webkit-filter: blur(0px);" class="skrollable skrollable-before">
+      </div>
+      <script type="text/javascript">
+      var skrollr_obj = skrollr.init();
+      </script>
+   
+</body>
+</html>
